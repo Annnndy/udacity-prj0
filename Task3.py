@@ -43,6 +43,7 @@ import re
 
 CITYS = {"BGL" : "(080)"}
 
+
 def findanwsercode(callercode):
     anwsers = {}
     for row in calls:

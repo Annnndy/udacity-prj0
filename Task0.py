@@ -27,6 +27,13 @@ if len(texts) > 0:
     print(FMT_TEXT_STR.format(first_text_record[0],
                               first_text_record[1],
                               first_text_record[2]))
+if len(calls) > 0:
+    first_call_record = calls[-1]
+    print(FMT_CALL_STR.format(first_call_record[0],
+                              first_call_record[1],
+                              first_call_record[2],
+                              first_call_record[3]))
+
 else:
     print("no records found")
 
